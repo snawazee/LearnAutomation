@@ -6,14 +6,14 @@
 
 	<listeners>
 		<listener
-			class-name="com.qa.hubspot.listeners.ExtentReportListener" />
+			class-name="com.qa.hubspot.Listeners.ExtentReportListener" />
 		<listener
-			class-name="com.qa.hubspot.listeners.TestAllureListener" />
+			class-name="com.qa.hubspot.Listeners.TestAllureListener" />
 		<!-- <listener
-			class-name="com.qa.hubspot.listeners.ScreenshotListener" /> -->
+			class-name="com.qa.hubspot.Listeners.ScreenshotListener" /> -->
 			
 			<listener
-			class-name="com.qa.hubspot.listeners.TesultsListener" />
+			class-name="com.qa.hubspot.Listeners.TesultsListener" />
 
 	</listeners>
 
@@ -23,7 +23,7 @@
 		<parameter name="browser" value="firefox" />
 
 		<classes>
-			<class name="com.qa.hubspot.tests.LoginPageTest" />
+			<class name="com.qa.hubspot.Tests.LoginPageTest" />
 		</classes>
 
 	</test>
@@ -32,7 +32,7 @@
 		<parameter name="browser" value="chrome" />
 
 		<classes>
-			<class name="com.qa.hubspot.tests.LoginPageTest" />
+			<class name="com.qa.hubspot.Tests.LoginPageTest" />
 		</classes>
 
 	</test>
